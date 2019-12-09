@@ -1,0 +1,20 @@
+# Author: Patryk Cyroń
+# Date: 30.10.2019r.
+
+#Program 2 Displaying only large characters
+
+answer='t'
+while(answer=='t'):
+            print()
+            print ("Program 2: Displaying only large characters")
+            print()
+
+            word=str(input("Write any word: "))
+            print(word.upper())
+            print()
+            sentence=str(input("Write here any sentence: "))
+            print(sentence.upper())
+            print()
+            answer=input("Do you want do repet the program? (Y/N) ")
+            
+input("ENTER - to end program")
