@@ -1,27 +1,26 @@
-# Autor: Patryk Cyroń
-# Data wykonania: 30.10.2019r.
+# Author: Patryk Cyroń
+# Date: 30.10.2019r.
 
 import math
 
-#Program 1 mnożenie liczb bez znaku mnożenia
-
-odp = 't'
-while(odp=='t'):
+#Program 1 multiplication of numbers without the sign of multiplication
+answer = 't'
+while(answer=='t'):
         print()
-        print ("Program 1: mnożenie liczb bez znaku mnożenia")
+        print ("Program 1: multiplication of numbers without the sign of multiplication")
         print()
-        a=int(input("Podaj pierwszą liczbę a="))
-        b=int(input("Podaj drugą liczbę b="))
+        a=int(input("Write first number a="))
+        b=int(input("Write second number b="))
 
-        il=0
+        multiplication=0
         i=1
         n=b
         while(i<=n):
-            il+=a
+            multiplication+=a
             i+=1
 
-        print("Iloczyn liczb a=" ,a, " i b=" ,b, "wynosi il=" ,il)
+        print("Multiplication of number a=" ,a, " and b=" ,b, "is mp=" ,multiplication)
     
-        odp=input("Chcesz powtórzyć program? (T/N) ")
+        answer=input("Do you want to repeat the program? (Y/N) ")
 
-input("ENTER - aby zakończyć")          
+input("ENTER - to end program")          
