@@ -15,6 +15,6 @@ while(answer=='t'):
             sentence=str(input("Write here any sentence: "))
             print(sentence.upper())
             print()
-            answer=input("Do you want do repet the program? (Y/N) ")
+            answer=input("Do you want to repeat the program? (Y/N) ")
             
 input("ENTER - to end program")
