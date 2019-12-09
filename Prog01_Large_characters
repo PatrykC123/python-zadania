@@ -12,7 +12,7 @@ while(answer=='t'):
             word=str(input("Write any word: "))
             print(word.upper())
             print()
-            sentence=str(input("Write here any sentence: "))
+            sentence=str(input("Write any sentence here: "))
             print(sentence.upper())
             print()
             answer=input("Do you want to repeat the program? (Y/N) ")
